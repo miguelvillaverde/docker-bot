@@ -8,6 +8,7 @@ services:
       - WEBHOOK_URL=https://unusable-stole-unvalued.ngrok-free.dev
     volumes:
       - ./n8n-data:/home/node/.n8n
+      - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
 
   ollama:
@@ -17,6 +18,14 @@ services:
       - "11434:11434"
     volumes:
       - ollama:/root/.ollama
+    restart: unless-stopped
+
+  openhands:
+    image: ghcr.io/all-hands-ai/openhands:0.28
+    container_name: openhands
+    volumes:
+      - ./openhands-data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
 
 volumes:
