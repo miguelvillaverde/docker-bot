@@ -42,13 +42,30 @@ El flujo de trabajo combina la agilidad de los bots de Telegram con la potencia 
 
 ---
 
-## ⚡ Comandos Disponibles
-Gestiona toda tu infraestructura cómodamente desde tu chat:
+## 🤖 Comandos del Bot
+Gestiona toda tu infraestructura cómodamente desde el chat de Telegram:
 
-* **Texto libre:** Describe el entorno y el bot se encarga del despliegue.
-* `/listar`: 📋 Muestra todos los contenedores activos.
-* `/parar [nombre]`: 🛑 Detiene un contenedor en ejecución.
-* `/eliminar [nombre]`: 🗑️ Elimina un contenedor permanentemente.
+### 📦 Gestión de Contenedores
+| Comando | Descripción |
+| :--- | :--- |
+| `/crear [nombre]` | Genera un nuevo entorno/contenedor |
+| `/listar` | Muestra la lista de contenedores activos |
+| `/iniciar [nombre]` | Inicia un contenedor detenido |
+| `/detener [nombre]` | Detiene un contenedor en ejecución |
+| `/reiniciar [nombre]` | Reinicia un contenedor |
+| `/eliminar [nombre]` | Elimina un contenedor del sistema |
+
+### 📋 Información y Estado
+| Comando | Descripción |
+| :--- | :--- |
+| `/estado [nombre]` | Consulta el estado detallado de un contenedor |
+| `/logs [nombre]` | Muestra los logs del contenedor |
+| `/stats` | Muestra estadísticas de recursos |
+| `/imagenes` | Lista las imágenes de Docker disponibles |
+| `/volumenes` | Lista los volúmenes configurados |
+| `/redes` | Muestra las redes de Docker activas |
+
+> 💡 **Nota:** También puedes hablar conmigo de forma natural para solicitar despliegues sin usar comandos específicos.
 
 ---
 
