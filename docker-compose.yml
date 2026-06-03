@@ -1,6 +1,6 @@
 services:
   n8n:
-    image: n8nio/n8n:latest
+    build: .
     container_name: n8n
     ports:
       - "5678:5678"
@@ -21,14 +21,14 @@ services:
     restart: unless-stopped
 
   openhands:
-  image: ghcr.io/all-hands-ai/openhands:0.28
-  container_name: openhands
-  ports:
-    - "3000:3000"
-  volumes:
-    - ./openhands-data:/app/data
-    - /var/run/docker.sock:/var/run/docker.sock
-  restart: unless-stopped
+    image: ghcr.io/all-hands-ai/openhands:0.28
+    container_name: openhands
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./openhands-data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
 
 volumes:
   ollama:
