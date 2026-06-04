@@ -1,16 +1,18 @@
-# 🐳🤖 DockerBot - Asistente Inteligente para Gestión de Docker 🤖🐳
-
 <div align="center">
 
+# 🐳🤖 DockerBot
+
+### Asistente Inteligente para Gestión de Contenedores Docker mediante IA
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
 ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
-
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![Llama 3.2](https://img.shields.io/badge/Llama-3.2-orange?style=for-the-badge)
 
-![Llama3.2](https://img.shields.io/badge/Llama-3.2-orange?style=for-the-badge)
+---
+
+🚀 Automatización • 🤖 Inteligencia Artificial • 🐳 Docker • 📱 Telegram
 
 </div>
 
