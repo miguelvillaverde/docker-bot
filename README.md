@@ -489,15 +489,47 @@ Configurar el webhook apuntando a la URL generada por ngrok.
 
 # 📸 Capturas del Proyecto
 
-Aquí pueden añadirse imágenes de:
+### 🤖 Bot de Telegram
 
-- Bot Telegram.
-- Flujos de n8n.
-- <img width="267" height="100" alt="image" src="https://github.com/user-attachments/assets/5c49fa63-85ec-47f0-ae17-faf422deff74" />
+<img width="1907" height="856" alt="image" src="https://github.com/user-attachments/assets/9d78f32a-aaa7-484f-beea-1876c5dd643c" />
 
-- Docker.
-- Generación de páginas web.
-- Comandos funcionando.
+En esta captura se muestra la interacción básica con DockerBot a través de Telegram. El usuario puede realizar preguntas generales o técnicas utilizando lenguaje natural y recibir respuestas generadas mediante Inteligencia Artificial. Esto convierte Telegram en una interfaz sencilla para comunicarse con el sistema sin necesidad de acceder directamente al servidor.
+
+### 🔄 Flujo Principal en n8n
+
+<img width="1907" height="851" alt="image" src="https://github.com/user-attachments/assets/874eaff2-c01a-4aea-909f-a614cd2b5f91" />
+
+Esta captura muestra el flujo principal desarrollado en n8n. El sistema recibe los mensajes enviados desde Telegram y, mediante un nodo Switch, identifica el comando solicitado por el usuario. A partir de ahí se ejecutan diferentes acciones relacionadas con Docker, Inteligencia Artificial o generación web.
+
+### 🐳 Gestión de Contenedores
+
+<img width="1907" height="452" alt="image" src="https://github.com/user-attachments/assets/461ddb3b-c705-437a-b777-427d3d8f5927" />
+
+En esta imagen se puede observar el funcionamiento de los comandos de administración Docker. El usuario puede crear, iniciar, detener o eliminar contenedores directamente desde Telegram. Toda la gestión se realiza automáticamente mediante los flujos desarrollados en n8n.
+
+### 📋 Menú de Ayuda
+
+<img width="1907" height="844" alt="image" src="https://github.com/user-attachments/assets/63c7050c-2b51-463e-9215-c1490ae1fa2f" />
+
+DockerBot incorpora un sistema de ayuda integrado que permite consultar rápidamente los comandos disponibles. Este menú facilita el uso de la aplicación y sirve como guía para los usuarios que no conocen la sintaxis de los comandos.
+
+### 🎮 Botones Interactivos
+
+<img width="1907" height="862" alt="image" src="https://github.com/user-attachments/assets/932ec08e-cbcd-4147-9399-cfc73efb9921" />
+
+Para mejorar la experiencia de usuario se implementó un teclado interactivo en Telegram. Gracias a estos botones es posible ejecutar acciones sin necesidad de escribir los comandos manualmente, reduciendo errores y facilitando la navegación por el sistema.
+
+### 🌐 Generación Automática de Páginas Web
+
+<img width="1907" height="858" alt="image" src="https://github.com/user-attachments/assets/da12576b-f61e-4ed5-b673-731bc7a043d4" />
+
+Una de las funcionalidades más avanzadas del proyecto es la generación automática de páginas web mediante Inteligencia Artificial. El usuario describe el tipo de página que desea crear y el sistema genera automáticamente el código HTML correspondiente con un diseño moderno y responsive.
+
+### 📊 Estadísticas Docker
+
+<img width="932" height="234" alt="image" src="https://github.com/user-attachments/assets/2a904bc1-19e7-4645-8dcd-48e35c9fb6da" />
+
+Esta captura muestra el comando de monitorización del sistema. DockerBot puede consultar el consumo de recursos de los contenedores y mostrar información sobre CPU, memoria y estado general de la infraestructura Docker.
 
 ---
 
