@@ -6,8 +6,11 @@ services:
       - "5678:5678"
     environment:
       - WEBHOOK_URL=https://unusable-stole-unvalued.ngrok-free.dev
+      - N8N_USER_FOLDER=/home/node/.n8n
+      - NODE_FUNCTION_ALLOW_BUILTIN=child_process,fs,path
     volumes:
       - ./n8n-data:/home/node/.n8n
+      - ./generated-webs:/home/node/.n8n/generated-webs
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
 
@@ -28,6 +31,15 @@ services:
     volumes:
       - ./openhands-data:/app/data
       - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+  webserver:
+    image: nginx:latest
+    container_name: webserver
+    ports:
+      - "8088:80"
+    volumes:
+      - ./generated-webs:/usr/share/nginx/html
     restart: unless-stopped
 
 volumes:
