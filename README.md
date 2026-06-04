@@ -493,6 +493,8 @@ Aquí pueden añadirse imágenes de:
 
 - Bot Telegram.
 - Flujos de n8n.
+- <img width="267" height="100" alt="image" src="https://github.com/user-attachments/assets/5c49fa63-85ec-47f0-ae17-faf422deff74" />
+
 - Docker.
 - Generación de páginas web.
 - Comandos funcionando.
